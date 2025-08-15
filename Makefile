@@ -5,4 +5,4 @@ default: clean
 	ttl2html all-`date "+%Y%m%d"`.ttl
 
 clean:
-	rm -f [0-9]*.html [0-9]*.ttl
+	rm -rf [0-9][0-9]/

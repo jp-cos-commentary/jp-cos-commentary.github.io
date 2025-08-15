@@ -6,3 +6,6 @@ title_property_perclass:
   https://w3id.org/jp-cos-commentary/Item: http://schema.org/description
 css_file: style.css
 navbar_class: navbar-dark
+uri_mappings:
+  - regexp: !ruby/regexp /^(\d{2})(\d{2})(\d{3})$/
+    path: '\1/\2/\3'
