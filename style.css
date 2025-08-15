@@ -1,0 +1,25 @@
+nav.navbar { /* ヘッダ */
+  background-color: #a67500; /* 深山吹色 */
+  color: white;
+}
+footer { /* フッタ */
+  background-color: #a67500; /* 深山吹色 */
+  color: white;
+  padding: 1em;
+}
+nav.navbar a.nav-link { /* ヘッダ上のリンク */
+  color: white;
+}
+.jumbotron, .breadcrumb {
+  background-color: #fff5e0; /* ペールベージュ */
+  color: #3a2a00;
+}
+a {
+  color: #a67500; /* 濃色と揃える */
+  text-decoration: none;
+}
+a:hover {
+  color: #a67500; /* 濃色と揃える */
+  text-decoration: underline;
+}
+

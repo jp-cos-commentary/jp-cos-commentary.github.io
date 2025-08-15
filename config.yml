@@ -1,0 +1,8 @@
+base_uri: https://w3id.org/jp-cos-commentary/
+site_title: 学習指導要領解説LOD
+admin_name: 教育データプラス研究会
+locale: ja
+title_property_perclass:
+  https://w3id.org/jp-cos-commentary/Item: http://schema.org/description
+css_file: style.css
+navbar_class: navbar-dark
