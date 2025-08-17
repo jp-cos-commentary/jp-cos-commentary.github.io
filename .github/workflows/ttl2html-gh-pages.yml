@@ -32,7 +32,7 @@ jobs:
       - name: Setup additoinal deps
         run: |
           sudo apt-get update
-          sudo apt-get raptor2-utils
+          sudo apt-get install raptor2-utils
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
