@@ -36,9 +36,8 @@ jobs:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - name: Bundle install
         run: bundle install --jobs 4
-      - 
       - name: Build with ttl2html
-        run: bundle exec ttl2html
+        run: make
       - name: Upload artifact (for Pages)
         uses: actions/upload-pages-artifact@v3
         with:
