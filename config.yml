@@ -9,3 +9,8 @@ navbar_class: navbar-dark
 uri_mappings:
   - regexp: !ruby/regexp /^(\d{2})(\d{2})(\d{3})$/
     path: '\1/\2/\3'
+top_class: https://w3id.org/jp-cos-commentary/CosCommentary
+breadcrumbs:
+  - property: http://schema.org/hasPart
+    inverse: true
+    label: http://purl.org/dc/terms/alternative
