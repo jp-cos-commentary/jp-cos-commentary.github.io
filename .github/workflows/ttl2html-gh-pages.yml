@@ -34,8 +34,6 @@ jobs:
         with:
           ruby-version: '3.4' # Not needed with a .ruby-version, .tool-versions or mise.toml
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-      - name: Bundle install
-        run: bundle install --jobs 4
       - name: Build with ttl2html
         run: make
       - name: Upload artifact (for Pages)
