@@ -14,3 +14,4 @@ breadcrumbs:
   - property: http://schema.org/hasPart
     inverse: true
     label: http://purl.org/dc/terms/alternative
+output_dir: public
