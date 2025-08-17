@@ -29,6 +29,10 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Setup additoinal deps
+        run: |
+          sudo apt-get update
+          sudo apt-get raptor2-utils
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
